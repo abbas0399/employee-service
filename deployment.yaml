@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: employee-service
-          image: public.ecr.aws/d0w8i9o0/employee-service:latest
+          image: public.ecr.aws/r0t2a5i5/employee-service:latest
