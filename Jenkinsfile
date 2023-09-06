@@ -30,6 +30,7 @@ pipeline {
         } 
       }
     }
+
     
     stage('deploy to EKS Cluster') {
       steps {
