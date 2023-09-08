@@ -31,7 +31,6 @@ pipeline {
       }
     }
 
-    
     stage('deploy to EKS Cluster') {
       steps {
       node('eks-cluster-node'){    
