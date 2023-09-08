@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: employee-service
-          image: public.ecr.aws/r0t2a5i5/employee-service:latest
+          image: 695221826710.dkr.ecr.us-east-1.amazonaws.com/employee-service:latest
