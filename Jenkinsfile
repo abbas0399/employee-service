@@ -34,7 +34,7 @@ pipeline {
     
     stage('deploy to EKS Cluster') {
       steps {
-      node('eks-cluster'){    
+      node('eks-cluster-node'){    
         checkout scm
         sh 'aws eks --region us-east-1 update-kubeconfig --name TFEKSWorkshop-cluster'
         sh '/home/ec2-user/bin/kubectl apply -f deployment.yaml'
